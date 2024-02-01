@@ -3,13 +3,13 @@ const mongoose = require('mongoose');
 const blogSchema = new mongoose.Schema({
 	title: {
 		type: String,
-		trim: true,
-		required: true
+		//trim: true,
+		//required: true
 	},
-	text: {
+	content: {
 		type: String,
-		trim: true,
-		required: true
+		//trim: true,
+		//required: true
 	},
 	date: {
 		type: Date,
